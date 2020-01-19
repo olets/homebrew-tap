@@ -1,8 +1,8 @@
 class ZshAbbr < Formula
-  desc "An enhanced zsh port of fish shell's abbreviations"
+  desc "zsh abbreviations, ported from fish's abbr and enhanced"
   homepage "https://github.com/olets/zsh-abbr"
-  url "https://github.com/olets/zsh-abbr/releases/download/v1.2.0/v1.2.0.tar.gz"
-  sha256 "c8af8c18b12a7742f65888de9a421ed7d7e73b2f896cd8c2f105e5de766c8799"
+  url "https://github.com/olets/zsh-abbr/releases/download/v2.0.0/v2.0.0.tar.gz"
+  sha256 "70539bcabac33a8a0baa1a68c2610c1fde41a903d9b00292b89a2c3dfc4a3a40"
 
   bottle :unneeded
 
