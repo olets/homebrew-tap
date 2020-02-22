@@ -1,8 +1,8 @@
 class ZshAbbr < Formula
   desc "zsh abbreviations, ported from fish's abbr and enhanced"
   homepage "https://github.com/olets/zsh-abbr"
-  url "https://github.com/olets/zsh-abbr/releases/download/v2.0.0/v2.0.0.tar.gz"
-  sha256 "70539bcabac33a8a0baa1a68c2610c1fde41a903d9b00292b89a2c3dfc4a3a40"
+  url "https://github.com/olets/zsh-abbr/releases/download/v2.1.0/v2.1.0.tar.gz"
+  sha256 "1eeb0faaf724260ed1d3beb9e4bde9554ba0500a78bcd0dd709e37f801215192"
 
   bottle :unneeded
 
@@ -21,6 +21,6 @@ class ZshAbbr < Formula
 
   test do
     assert_match 'true',
-      shell_output("zsh -c '. #{pkgshare}/zsh-abbr.zsh && echo $ABBRS_DEFAULT_BINDINGS'")
+      shell_output("zsh -c '. #{pkgshare}/zsh-abbr.zsh && echo $ZSH_ABBR_DEFAULT_BINDINGS'")
   end
 end
