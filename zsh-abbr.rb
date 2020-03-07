@@ -14,7 +14,7 @@ class ZshAbbr < Formula
     <<~EOS
       To activate abbreviations, add the following at the end of your .zshrc:
         source #{HOMEBREW_PREFIX}/share/zsh-abbr/zsh-abbr.zsh
-      You will also need to force reload of your .zshrc:
+      Then to activate abbreviations in already open sessions, reload .zshrc:
         source ~/.zshrc
     EOS
   end
