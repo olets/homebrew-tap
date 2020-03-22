@@ -1,13 +1,16 @@
 class ZshAbbr < Formula
   desc "zsh abbreviations, ported from fish's abbr and enhanced"
   homepage "https://github.com/olets/zsh-abbr"
-  url "https://github.com/olets/zsh-abbr/releases/download/v3.1.0/v3.1.0.tar.gz"
-  sha256 "7946eb03d6724fc677aacd35ff95d802456f83a0ca50b4a600860584f347846a"
+  url "https://github.com/olets/zsh-abbr/releases/download/next/v3.1.1.b1.tar.gz"
+  sha256 "25a29e880421c9f62c1cda7b821052ed42a2f20931bfac11238d8a034b28385e"
 
   bottle :unneeded
 
   def install
     pkgshare.install "zsh-abbr.zsh"
+
+    man1.mkpath
+    man1.install "man/man1/zsh-abbr.1"
   end
 
   def caveats
