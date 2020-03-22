@@ -15,10 +15,19 @@ class ZshAbbr < Formula
 
   def caveats
     <<~EOS
+
       To activate abbreviations, add the following at the end of your .zshrc:
+
         source #{HOMEBREW_PREFIX}/share/zsh-abbr/zsh-abbr.zsh
+
+      If you prefer to manage the package with Homebrew but load it with
+      a plugin manager, rather than sourcing the above path
+      use your plugin manager to load it.
+
       Then to activate abbreviations in already open sessions, reload .zshrc:
+
         source ~/.zshrc
+
     EOS
   end
 
