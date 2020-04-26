@@ -33,7 +33,7 @@ class ZshAbbr < Formula
   end
 
   test do
-    assert_match 'true',
+    assert_match '1',
       shell_output("zsh -c '. #{pkgshare}/zsh-abbr.zsh && echo $ZSH_ABBR_DEFAULT_BINDINGS'")
   end
 end
