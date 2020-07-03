@@ -3,7 +3,7 @@ class GitPromptKit < Formula
   homepage "https://github.com/olets/git-prompt-kit"
   url "https://github.com/olets/git-prompt-kit/releases/download/v1.0.0.tar.gz"
   sha256 "f8ffd516981dd2e09a5334abb9a528b0595acde329197b5e46340e1645813fc2"
-  head "https://github.com/olets/git-prompt-kit.git"
+  head "https://github.com/olets/git-prompt-kit.git", :branch => "main"
 
   bottle :unneeded
 
