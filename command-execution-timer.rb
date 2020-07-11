@@ -1,4 +1,4 @@
-class GitPromptKit < Formula
+class CommandExecutionTimer < Formula
   desc "A zsh plugin for timing, working with, and displaying the time an interactive shell command takes to execute."
   homepage "https://github.com/olets/command-execution-timer"
   url "https://github.com/olets/command-execution-timer/releases/download/v1.0.0.tar.gz"
