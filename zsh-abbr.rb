@@ -1,8 +1,8 @@
 class ZshAbbr < Formula
   desc "The zsh manager for auto-expanding abbreviations, inspired by fish"
   homepage "https://github.com/olets/zsh-abbr"
-  url "https://github.com/olets/zsh-abbr/releases/download/v4.0.1/v4.0.1.tar.gz"
-  sha256 "1500ea040db035469dd2a589466491a7f6a240e466f25490fe84d1b76bea4651"
+  url "https://github.com/olets/zsh-abbr/releases/download/v4.1.0/v4.1.0.tar.gz"
+  sha256 "44fafc4a873beb7d6df9065836caa0187acb3965"
   head "https://github.com/olets/zsh-abbr.git", :branch => "main"
 
   bottle :unneeded
