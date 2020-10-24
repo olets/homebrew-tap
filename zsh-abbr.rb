@@ -1,9 +1,9 @@
 class ZshAbbr < Formula
-  desc "The zsh manager for auto-expanding abbreviations, inspired by fish"
+  desc "Auto-expanding abbreviations manager for zsh, inspired by fish"
   homepage "https://github.com/olets/zsh-abbr"
   url "https://github.com/olets/zsh-abbr/releases/download/v4.1.0/v4.1.0.tar.gz"
   sha256 "44fafc4a873beb7d6df9065836caa0187acb3965"
-  head "https://github.com/olets/zsh-abbr.git", :branch => "main"
+  head "https://github.com/olets/zsh-abbr.git", branch: "main"
 
   bottle :unneeded
 
@@ -34,6 +34,6 @@ class ZshAbbr < Formula
 
   test do
     assert_match "1",
-      shell_output("zsh -c '. #{pkgshare}/zsh-abbr.zsh && echo $ZSH_ABBR_DEFAULT_BINDINGS'")
+                 shell_output("zsh -c '. #{pkgshare}/zsh-abbr.zsh && echo $ZSH_ABBR_DEFAULT_BINDINGS'")
   end
 end
