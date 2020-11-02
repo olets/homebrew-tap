@@ -3,7 +3,7 @@ class ZshAbbr < Formula
   homepage "https://github.com/olets/zsh-abbr"
   url "https://github.com/olets/zsh-abbr/releases/download/v4.1.1/v4.1.1.tar.gz"
   sha256 "b840b4868f541601430281f53fae305cbecf4706"
-  head "https://github.com/olets/zsh-abbr.git", branch: "main"
+  head "https://github.com/olets/zsh-abbr.git", branch => "main"
 
   bottle :unneeded
 
