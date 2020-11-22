@@ -12,7 +12,7 @@ class GitReplay < Formula
     bin.install "git-replay"
 
     man1.mkpath
-    man1.install "man/man1/abbr.1"
+    man1.install "man/man1/git-replay.1"
   end
 
   test do
