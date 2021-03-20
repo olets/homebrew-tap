@@ -1,8 +1,8 @@
 class NitroZshCompletions < Formula
   desc "Zsh completions for https://github.com/craftcms/nitro"
   homepage "https://github.com/olets/nitro-zsh-completions"
-  url "https://github.com/olets/nitro-zsh-completions/releases/download/v1.0.0/v1.0.0.tar.gz"
-  sha256 "3431290dda77e67449fad890d79754f6ae9649258d79fcefe8b407cef2748af1"
+  url "https://github.com/olets/nitro-zsh-completions/releases/download/v1.1.0/v1.1.0.tar.gz"
+  sha256 "b11ee3a3012880e615fe8cabbe012cdc6bcf750f07939af922fb62fed06144bc"
   head "https://github.com/olets/nitro-zsh-completions.git", branch: "main"
 
   bottle :unneeded
