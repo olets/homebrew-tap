@@ -1,8 +1,8 @@
 class ZshTestRunner < Formula
   desc "Straight-forward tests and coverage reports for zsh"
   homepage "https://github.com/olets/zsh-test-runner"
-  url "https://github.com/olets/zsh-test-runner/releases/download/v1.1.0/v1.1.0.tar.gz"
-  sha256 "9beb77c496b2011d88a8860780c0f21f682e043cd75f61e8d20c657a61299986"
+  url "https://github.com/olets/zsh-test-runner/releases/download/v1.1.1/v1.1.1.tar.gz"
+  sha256 "017d27085b28af5b89cdca13743cfabedf790ea9289368c3828660b074ecd956"
   head "https://github.com/olets/zsh-test-runner.git", branch: "main"
 
   bottle :unneeded
