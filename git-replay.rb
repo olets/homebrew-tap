@@ -1,8 +1,8 @@
 class GitReplay < Formula
   desc "Automate the rebasing of Git branches and creation of stage branches"
   homepage "https://github.com/olets/git-replay"
-  url "https://github.com/olets/git-replay/releases/download/v3.0.0-beta.2/v3.0.0-beta.2.tar.gz"
-  sha256 "d2dc8439dd4e81520a695f66f02e104b389dba141bae82fce8ac679c23371e0e"
+  url "https://github.com/olets/git-replay/releases/download/v3.0.0/v3.0.0.tar.gz"
+  sha256 "6f4dbcd92b85fa75b57369f287f87ed8b8ec7a891a5d8b43fdf785c2154ba7be"
   head "https://github.com/olets/git-replay.git", branch: "main"
 
   bottle :unneeded
