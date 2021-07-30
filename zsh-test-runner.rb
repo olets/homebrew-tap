@@ -25,7 +25,7 @@ class ZshTestRunner < Formula
       a plugin manager, use your plugin manager to load the above path
       rather than `source`ing it.
 
-      Then to activate abbreviations in already open sessions, restart zsh:
+      Then to make ztr available in already open sessions, restart zsh:
 
         exec zsh
 
