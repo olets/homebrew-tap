@@ -22,10 +22,6 @@ class GitPromptKit < Formula
       a plugin manager, rather than sourcing the above path
       use your plugin manager to load it.
 
-      You will also need to install the dependency plugin "gitstatus".
-      Refer to the instructions at https://github.com/olets/git-prompt-kit
-      and/or https://github.com/romkatv/gitstatus.
-
       Then to activate abbreviations in already open sessions, reload .zshrc:
 
         source ~/.zshrc
