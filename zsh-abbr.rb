@@ -25,7 +25,7 @@ class ZshAbbr < Formula
       a plugin manager, use your plugin manager to load the above path
       rather than `source`ing it.
 
-      Then to activate abbreviations in already open sessions, restart zsh:
+      Then to activate abbreviations in already open sessions, restart zsh. Run:
 
         exec zsh
 
