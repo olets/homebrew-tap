@@ -1,8 +1,8 @@
 class ZshWindowTitle < Formula
   desc "A zsh plugin for informative terminal window titles"
   homepage "https://github.com/olets/zsh-window-title"
-  url "https://github.com/olets/zsh-window-title/releases/download/v1.0.1/v1.0.1.tar.gz"
-  sha256 "3766e21550c826e94fbad7c34239ece89506a59489c16edd3f1e942cecf00360"
+  url "https://github.com/olets/zsh-window-title/releases/download/v1.0.2/v1.0.2.tar.gz"
+  sha256 "739b3a9cb76597bb3adab8694b3318cb8fec6dcca20f50d7806820129961164b"
   head "https://github.com/olets/zsh-window-title.git", branch: "main"
 
   bottle :unneeded
