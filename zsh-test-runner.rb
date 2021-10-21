@@ -5,8 +5,6 @@ class ZshTestRunner < Formula
   sha256 "2495aeee8a17a4ca8a9decb90616b3084368cb41d301eb452ddaacdb64a0acea"
   head "https://github.com/olets/zsh-test-runner.git", branch: "main"
 
-  bottle :unneeded
-
   def install
     pkgshare.install "ztr.zsh"
 

@@ -5,8 +5,6 @@ class NitroZshCompletions < Formula
   sha256 "b11ee3a3012880e615fe8cabbe012cdc6bcf750f07939af922fb62fed06144bc"
   head "https://github.com/olets/nitro-zsh-completions.git", branch: "main"
 
-  bottle :unneeded
-
   def install
     pkgshare.install "completions/_nitro"
   end

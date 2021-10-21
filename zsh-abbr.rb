@@ -5,8 +5,6 @@ class ZshAbbr < Formula
   sha256 "108d7edcb34107e745825d13b68ca17cb56e73fe2e25a786323141f482feb7ad"
   head "https://github.com/olets/zsh-abbr.git", branch: "main"
 
-  bottle :unneeded
-
   def install
     pkgshare.install "zsh-abbr.zsh"
 

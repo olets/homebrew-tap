@@ -5,8 +5,6 @@ class CommandExecutionTimer < Formula
   sha256 "71a837305e34ccbc15e9384992257857e78cdc30bbb7b2372f0f62dfe2f66dd4"
   head "https://github.com/olets/command-execution-timer.git", :branch => "main"
 
-  bottle :unneeded
-
   def install
     pkgshare.install "command-execution-timer.zsh"
   end

@@ -5,7 +5,6 @@ class GitReplay < Formula
   sha256 "4e1905dc30b95b1443a0a2211563b232474709bc26c80abebbb5de4b6060ca59"
   head "https://github.com/olets/git-replay.git", branch: "main"
 
-  bottle :unneeded
   depends_on "yq"
 
   def install

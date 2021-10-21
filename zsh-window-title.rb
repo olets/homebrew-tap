@@ -5,8 +5,6 @@ class ZshWindowTitle < Formula
   sha256 "739b3a9cb76597bb3adab8694b3318cb8fec6dcca20f50d7806820129961164b"
   head "https://github.com/olets/zsh-window-title.git", branch: "main"
 
-  bottle :unneeded
-
   def install
     pkgshare.install "zsh-window-title.zsh"
 
