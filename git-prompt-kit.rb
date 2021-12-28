@@ -1,8 +1,8 @@
 class GitPromptKit < Formula
-  desc "Use Git Prompt Kit for its accelerated configurable Git-focused zsh prompt, or as component kit for building a custom prompt"
+  desc "A configurable set of components for creating feature rich, high performance Git-aware zsh prompts"
   homepage "https://github.com/olets/git-prompt-kit"
-  url "https://github.com/olets/git-prompt-kit/releases/download/v1.0.0.tar.gz"
-  sha256 "f8ffd516981dd2e09a5334abb9a528b0595acde329197b5e46340e1645813fc2"
+  url "https://github.com/olets/git-prompt-kit/releases/download/v2.0.0.tar.gz"
+  sha256 "c9acfd6cd761b1cbcd465e7657291526f61747d5cfc19d38fd837282a733e83b"
   head "https://github.com/olets/git-prompt-kit.git", :branch => "main"
 
   def install
@@ -29,6 +29,6 @@ class GitPromptKit < Formula
 
   test do
     assert_match '1',
-      shell_output("zsh -c '. #{pkgshare}/git-prompt-kit.zsh && echo $GIT_PROMPT_KIT_USE_DEFAULT_PROMPT'")
+      shell_output("zsh -c '. #{pkgshare}/git-prompt-kit.zsh && echo $GIT_PROMPT_KIT_HIDE_INACTIVE_AHEAD_BEHIND'")
   end
 end
