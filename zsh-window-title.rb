@@ -20,8 +20,8 @@ class ZshWindowTitle < Formula
         source #{HOMEBREW_PREFIX}/share/zsh-window-title/zsh-window-title.zsh
 
       If you prefer to manage the package with Homebrew but load it with
-      a plugin manager, use your plugin manager to load the above path
-      rather than `source`ing it.
+      a plugin manager, you may be able to load the above path with your
+      plugin manager.
 
       Then to activate zsh-window-title in already open sessions, restart zsh. Run:
 

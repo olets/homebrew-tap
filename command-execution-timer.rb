@@ -17,12 +17,12 @@ class CommandExecutionTimer < Formula
         source #{HOMEBREW_PREFIX}/share/command-execution-timer/command-execution-timer.zsh
 
       If you prefer to manage the package with Homebrew but load it with
-      a plugin manager, rather than sourcing the above path
-      use your plugin manager to load it.
+      a plugin manager, you may be able to load the above path with your
+      plugin manager.
 
-      Then to activate abbreviations in already open sessions, reload .zshrc:
+      Then restart zsh. Run:
 
-        source ~/.zshrc
+        exec zsh
 
     EOS
   end
