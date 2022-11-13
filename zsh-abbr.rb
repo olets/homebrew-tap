@@ -3,7 +3,7 @@ class ZshAbbr < Formula
   homepage "https://github.com/olets/zsh-abbr"
   url "https://github.com/olets/zsh-abbr/releases/download/v4.8.1/v4.8.1.tar.gz"
   sha256 "311defee227d2113715c3794bc874628601c6ee569ae807a82f8e7d11a9c6dc2"
-  head "https://github.com/olets/zsh-abbr.git", branch: "main"
+  head "https://github.com/olets/zsh-abbr.git", branch: "next"
 
   def install
     pkgshare.install "zsh-abbr.zsh"
@@ -27,6 +27,12 @@ class ZshAbbr < Formula
 
         exec zsh
 
+      If you installed with --HEAD, you may now or in the future
+      have an unstable version (for example a beta version). Use at your
+      own risk. Backing up your abbreviations is recommended.
+      To switch to the stable version, first uninstall and then
+      (without passing HEAD) reinstall. You can check your version by
+      running `abbr --version`.
     EOS
   end
 
