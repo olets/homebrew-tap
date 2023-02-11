@@ -1,4 +1,4 @@
-class HomebrewDefaultBranchChange < Formula
+class DefaultBranchNameChange < Formula
   desc "Automate the rebasing of Git branches and creation of stage branches"
   homepage "https://github.com/olets/homebrew-default-branch-change"
   url "https://github.com/olets/homebrew-default-branch-change/archive/refs/tags/v1.0.0.beta-1.tar.gz"
