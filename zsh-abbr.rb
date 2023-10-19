@@ -7,6 +7,7 @@ class ZshAbbr < Formula
 
   def install
     pkgshare.install "zsh-abbr.zsh"
+    pkgshare.install "completions/_abbr"
 
     man1.mkpath
     man1.install "man/man1/abbr.1"
@@ -23,9 +24,31 @@ class ZshAbbr < Formula
       a plugin manager, you may be able to load the above path with your
       plugin manager.
 
-      Then to activate abbreviations in already open sessions, restart zsh. Run:
+      Then to activate abbreviations in already open sessions, restart
+      zsh by running
 
         exec zsh
+
+      To activate completions for abbr commands, add the following to
+      your .zshrc:
+
+        if type brew &>/dev/null; then
+          FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+          autoload -Uz compinit
+          compinit
+        fi
+
+      You may also need to force rebuild `zcompdump`:
+
+        rm -f ~/.zcompdump; compinit
+
+      Additionally, if you receive "zsh compinit: insecure directories"
+      warnings when attempting to load these completions, you may need
+      to run these commands:
+
+        chmod go-w '#{HOMEBREW_PREFIX}/share'
+        chmod -R go-w '#{HOMEBREW_PREFIX}/share/zsh'
 
       If you installed with --HEAD, you may now or in the future
       have an unstable version (for example a beta version). Use at your
@@ -37,7 +60,16 @@ class ZshAbbr < Formula
   end
 
   test do
+    # test that the plugin is installed
     assert_match "1",
                  shell_output("zsh -c '. #{pkgshare}/zsh-abbr.zsh && echo $ZSH_ABBR_DEFAULT_BINDINGS'")
+
+    # test that completions are installed
+    (testpath/"test.zsh").write <<~EOS
+      fpath=(#{pkgshare} $fpath)
+      autoload _ack
+      which _ack
+    EOS
+    assert_match(/^_ack/, shell_output("zsh test.zsh"))
   end
 end
