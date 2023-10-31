@@ -55,7 +55,7 @@ class ZshTestRunner < Formula
   test do
     # test that the program is installed
     assert_match "0",
-                 shell_output("zsh -c '. #{pkgshare}/ztr.zsh && echo $ZTR_COUNT_PASS'")
+                 shell_output("zsh -c '. #{pkgshare}/ztr.zsh && echo $ZTR_RESULTS[failed]'")
 
     # test that completions are installed
     (testpath/"test.zsh").write <<~EOS
