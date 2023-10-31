@@ -33,7 +33,7 @@ class ZshAbbr < Formula
       your .zshrc:
 
         if type brew &>/dev/null; then
-          FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+          FPATH=$(brew --prefix)/share/zsh-abbr:$FPATH
 
           autoload -Uz compinit
           compinit
@@ -60,9 +60,9 @@ class ZshAbbr < Formula
   end
 
   test do
-    # test that the plugin is installed
+    # test that the program is installed
     assert_match "1",
-                 shell_output("zsh -c '. #{pkgshare}/zsh-abbr.zsh && echo $ZSH_ABBR_DEFAULT_BINDINGS'")
+                 shell_output("zsh -c '. #{pkgshare}/zsh-abbr.zsh && echo $ABBR_DEFAULT_BINDINGS'")
 
     # test that completions are installed
     (testpath/"test.zsh").write <<~EOS
