@@ -1,5 +1,5 @@
 class CommandExecutionTimer < Formula
-  desc "A zsh plugin for timing, working with, and displaying the time an interactive shell command takes to execute."
+  desc "Zsh plugin for timing interactive shell commands"
   homepage "https://github.com/olets/command-execution-timer"
   url "https://github.com/olets/command-execution-timer/releases/download/v1.0.1.tar.gz"
   sha256 "71a837305e34ccbc15e9384992257857e78cdc30bbb7b2372f0f62dfe2f66dd4"
@@ -28,7 +28,7 @@ class CommandExecutionTimer < Formula
   end
 
   test do
-    assert_match '3',
+    assert_match "3",
       shell_output("zsh -c '. #{pkgshare}/command-execution-timer.zsh && echo $COMMAND_EXECUTION_TIMER_THRESHOLD'")
   end
 end

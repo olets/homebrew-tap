@@ -1,7 +1,7 @@
 class HometownPrompt < Formula
   desc "Feature rich, high performance Git-centric theme for zsh"
   homepage "https://github.com/olets/hometown-prompt"
-  url "https://github.com/olets/hometown-prompt/archive/v3.0.0.tar.gz"
+  url "https://github.com/olets/hometown-prompt/archive/refs/tags/v3.0.0.tar.gz"
   sha256 "c9d8bfd4e5afb7ff92331959b3880d64109454284cf6ceb38fbd178d48d0072a"
   head "https://github.com/olets/hometown-prompt.git", branch: "main"
 
