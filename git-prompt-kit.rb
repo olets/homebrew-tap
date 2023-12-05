@@ -1,5 +1,5 @@
 class GitPromptKit < Formula
-  desc "configurable set of components for creating feature rich, high performance Git-aware zsh themes"
+  desc "Configurable, feature rich, high performance Git components for zsh themes"
   homepage "https://github.com/olets/git-prompt-kit"
   # using url with tag and revision to resolve submodules
   # https://github.com/orgs/Homebrew/discussions/2100
@@ -28,6 +28,6 @@ class GitPromptKit < Formula
 
   test do
     assert_match "1",
-                 shell_output("zsh -fic '. #{pkgshare}/git-prompt-kit.zsh && echo $GIT_PROMPT_KIT_HIDE_INACTIVE_AHEAD_BEHIND'")
+      shell_output("zsh -fic '. #{pkgshare}/git-prompt-kit.zsh && echo $GIT_PROMPT_KIT_HIDE_INACTIVE_AHEAD_BEHIND'")
   end
 end
