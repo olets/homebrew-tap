@@ -1,12 +1,16 @@
 class HometownPrompt < Formula
   desc "Feature rich, high performance Git-centric theme for zsh"
   homepage "https://github.com/olets/hometown-prompt"
-  url "https://github.com/olets/hometown-prompt/archive/refs/tags/v3.0.0.tar.gz"
-  sha256 "c9d8bfd4e5afb7ff92331959b3880d64109454284cf6ceb38fbd178d48d0072a"
+  # using url with tag and revision to resolve submodules
+  # https://github.com/orgs/Homebrew/discussions/2100
+  url "https://github.com/olets/hometown-prompt.git",
+      tag:      "v3.0.0",
+      revision: "4a92ceeffa98bd1076824b155d4241f546de570b"
   head "https://github.com/olets/hometown-prompt.git", branch: "main"
 
   def install
     pkgshare.install "hometown.zsh-theme"
+    pkgshare.install "git-prompt-kit"
   end
 
   def caveats
