@@ -1,7 +1,8 @@
 class HomebrewTests < Formula
   desc "Testing Homebrew questions"
   homepage "https://github.com/olets/homebrew-tests"
-  url "https://github.com/olets/homebrew-default-branch-change/archive/refs/heads/v1.0.0.beta-8.tar.gz"
-  sha256 "c88fa5b5154f80163e932fd0ae47b7cd7b74a7480df2e242870985ba98873c63"
-  head "https://github.com/olets/homebrew-tests.git", branch: "original-default-branch-name"
+  url "https://github.com/olets/homebrew-tests.git"
+      tag:      "v1.0.0-beta.9",
+      revision: "b06f2e860bb7387565fe7e87697f53e39635c2f3"
+  head "https://github.com/olets/homebrew-tests.git", branch: "updated-default-branch-name"
 end
