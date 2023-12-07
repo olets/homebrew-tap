@@ -23,11 +23,13 @@ class HometownPrompt < Formula
       zsh by running
 
         exec zsh
+  
+  
     EOS
   end
 
   test do
     assert_match "1",
-                 shell_output("zsh -fic '. #{pkgshare}/hometown.zsh-theme && echo $HOMETOWN_LINEBREAK_AFTER_GIT_REF'")
+      shell_output("zsh -fic '. #{pkgshare}/hometown.zsh-theme && echo $HOMETOWN_LINEBREAK_AFTER_GIT_REF'")
   end
 end

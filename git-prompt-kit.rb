@@ -23,6 +23,8 @@ class GitPromptKit < Formula
       zsh by running
 
         exec zsh
+  
+  
     EOS
   end
 
