@@ -4,8 +4,8 @@ class HometownPrompt < Formula
   # using url with tag and revision to resolve submodules
   # https://github.com/orgs/Homebrew/discussions/2100
   url "https://github.com/olets/hometown-prompt.git",
-      tag:      "v3.1.2",
-      revision: "0f7f5694858b00a4bf609466456dcd403285de32"
+      tag:      "v3.1.3",
+      revision: "f81a17157c53840e3d84378674694a4d87e792d2"
   head "https://github.com/olets/hometown-prompt.git", branch: "main"
 
   def install
