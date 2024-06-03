@@ -1,8 +1,8 @@
 class GitRandom < Formula
   desc "Automate the rebasing of Git branches and creation of stage branches"
   homepage "https://github.com/olets/git-random"
-  url "https://github.com/olets/git-random/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "7fdc47743d5bbe68951069f43c0f241e0ee23551a2d2339698a04f28aa736739"
+  url "https://github.com/olets/git-random/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "0b06d4c1dfb6fed05baae0696190e2520e19ce5ea8b2b750cbb01fff9b355808"
   head "https://github.com/olets/git-random.git", branch: "main"
 
   def install
