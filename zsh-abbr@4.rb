@@ -35,7 +35,7 @@ class ZshAbbrAT4 < Formula
       running `abbr --version`.
 
       v4 is a legacy version of zsh-abbr and no longer receives updates.
-      Consider upgrading to the latest. See the homepage for details.
+      Consider upgrading to the latest. See https://zsh-abbr.olets.dev for details.
     EOS
   end
 
