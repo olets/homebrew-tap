@@ -26,7 +26,7 @@ class ZshAutosuggestionsAbbreviationsStrategy < Formula
         # load zsh-abbr
         # load zsh-autosuggestions
         # load zsh-autosuggestions-abbreviation-strategy
-        ZSH_AUTOSUGGEST_STRATEGY+=( abbreviations )
+        ZSH_AUTOSUGGEST_STRATEGY=( abbreviations $ZSH_AUTOSUGGEST_STRATEGY )
 
       Then restart zsh. Run:
 
