@@ -1,5 +1,5 @@
 class ZshAutosuggestionsAbbreviationsStrategy < Formula
-  desc "Zsh plugin to add your zsh-abbr abbreviations to zsh-autosuggestions' suggestions"
+  desc "Zsh plugin to add zsh-abbr's abbreviations to zsh-autosuggestions' suggestions"
   homepage "https://github.com/olets/zsh-autosuggestions-abbreviations-strategy"
   url "https://github.com/olets/zsh-autosuggestions-abbreviations-strategy/archive/refs/tags/v1.1.0.tar.gz"
   sha256 "3941d24d0d33f17066a4fb1ebfa0b342895d4a76a4873ce17dac0ad9283bd016"
@@ -22,12 +22,12 @@ class ZshAutosuggestionsAbbreviationsStrategy < Formula
 
       Then add the "abbreviations" strategy to ZSH_AUTOSUGGEST_STRATEGY.
       See the homepage for possibilities. For example, in .zshrc
-      
+
         # load zsh-abbr
         # load zsh-autosuggestions
         # load zsh-autosuggestions-abbreviation-strategy
         ZSH_AUTOSUGGEST_STRATEGY+=( abbreviations )
-        
+
       Then restart zsh. Run:
 
         exec zsh
@@ -36,7 +36,8 @@ class ZshAutosuggestionsAbbreviationsStrategy < Formula
   end
 
   test do
-    assert_match "2",
-      shell_output("zsh -c '. #{pkgshare}/zsh-autosuggestions-abbreviations-strategy.zsh && echo $ZSH_WINDOW_TITLE_DIRECTORY_DEPTH_DEFAULT'")
+    assert_match "y",
+      shell_output("zsh -c '. #{pkgshare}/zsh-autosuggestions-abbreviations-strategy.zsh && \
+        ${ZSH_AUTOSUGGESTIONS_ABBREVIATIONS_STRATEGY_VERSION:+y}'")
   end
 end
