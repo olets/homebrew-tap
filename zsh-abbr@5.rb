@@ -56,6 +56,10 @@ class ZshAbbrAT5 < Formula
       (without passing HEAD) reinstall. You can check your version by
       running `abbr --version`.
     EOS
+    # @TODO
+    # When v6.0.0 is released, add this above the above EOS:
+    # v5 is a legacy version of zsh-abbr and no longer receives updates.
+    # Consider upgrading to the latest. See https://zsh-abbr.olets.dev for details.
   end
 
   test do
