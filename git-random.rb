@@ -1,8 +1,8 @@
 class GitRandom < Formula
   desc "Create random-content Git commits, for experimentation and learning"
   homepage "https://github.com/olets/git-random"
-  url "https://github.com/olets/git-random/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "2f73e1102a7d071c8b22fe5f78511f8c156b8c27ec3a7e5945659097d915c8e8"
+  url "https://github.com/olets/git-random/archive/refs/tags/v2.0.1.tar.gz"
+  sha256 "96f8fa5d720ae840b50738a0f1ff2888620c98e6632873794241ff7612fc3fe3"
   head "https://github.com/olets/git-random.git", branch: "main"
 
   def install
