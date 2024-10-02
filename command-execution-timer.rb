@@ -28,7 +28,8 @@ class CommandExecutionTimer < Formula
   end
 
   test do
-    assert_match "3",
-      shell_output("zsh -c '. #{pkgshare}/command-execution-timer.zsh && echo $COMMAND_EXECUTION_TIMER_THRESHOLD'")
+    assert_match "01:00",
+      shell_output("zsh -c '. #{pkgshare}/command-execution-timer.zsh && \
+        COMMAND_EXECUTION_TIMER_FORMAT=H:M:S command_execution_timer__format 60'")
   end
 end
