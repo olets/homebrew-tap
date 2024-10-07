@@ -24,6 +24,18 @@ class CommandExecutionTimer < Formula
 
         exec zsh
 
+      You have installed the latest version of Command Execution Timer. It
+      is possible that you were upgraded to a different major version. To
+      check your version, run:
+
+        echo $COMMAND_EXECUTION_TIMER_VERSION
+
+      Refer to https://github.com/olets/command-execution-timer/blob/main/CHANGELOG.md
+      for the latest changes and instructions.
+
+      Refer to https://command-execution-timer.vercel.app/installation.html
+      for instuctions on pinning this major version or downgrading.
+
     EOS
   end
 

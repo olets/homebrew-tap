@@ -24,6 +24,14 @@ class CommandExecutionTimerAT1 < Formula
 
         exec zsh
 
+      You have installed the latest 1.x version of Command Execution Timer.
+
+      Refer to https://github.com/olets/command-execution-timer/blob/main/CHANGELOG.md
+      for the latest changes and instructions.
+
+      Refer to https://command-execution-timer.vercel.app/installation.html
+      for instuctions on installing a different major version.
+
     EOS
   end
 
