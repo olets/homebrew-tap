@@ -1,8 +1,8 @@
 class ZshAbbr < Formula
   desc "Auto-expanding abbreviations manager for zsh, inspired by fish"
   homepage "https://github.com/olets/zsh-abbr"
-  url "https://github.com/olets/zsh-abbr/archive/v5.8.2.tar.gz"
-  sha256 "23541b83ed0673e74c311cdd618ab6592d897fd54013b68e6bc2fe08fd1b7b1d"
+  url "https://github.com/olets/zsh-abbr/archive/refs/tags/v5.8.3.tar.gz"
+  sha256 "e365bbaaf9c2eee453872b3d7b815a25f09ccb298d7765e5c8c9abdc9d50bd56"
   head "https://github.com/olets/zsh-abbr.git", branch: "next"
 
   def install
