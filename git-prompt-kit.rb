@@ -4,8 +4,8 @@ class GitPromptKit < Formula
   # using url with tag and revision to resolve submodules
   # https://github.com/orgs/Homebrew/discussions/2100
   url "https://github.com/olets/git-prompt-kit.git",
-      tag:      "v4.1.4",
-      revision: "16eddd8e7f73190135761ed78bb4a38e356f7275"
+      tag:      "v4.1.5",
+      revision: "9246360f3097989b969354ec98b0ef906935eb4e"
   head "https://github.com/olets/git-prompt-kit.git", branch: "next"
 
   def install
