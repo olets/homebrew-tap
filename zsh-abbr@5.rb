@@ -17,7 +17,7 @@ class ZshAbbrAT5 < Formula
 
       To activate abbreviations, add the following at the end of your .zshrc:
 
-        source #{HOMEBREW_PREFIX}/share/zsh-abbr/zsh-abbr.zsh
+        source #{HOMEBREW_PREFIX}/share/zsh-abbr@5/zsh-abbr.zsh
 
       If you prefer to manage the package with Homebrew but load it with
       a plugin manager, you may be able to load the above path with your

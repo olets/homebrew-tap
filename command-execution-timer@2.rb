@@ -14,7 +14,7 @@ class CommandExecutionTimerAT2 < Formula
 
       To activate Command Execution Timer, add the following at the end of your .zshrc:
 
-        source #{HOMEBREW_PREFIX}/share/command-execution-timer/command-execution-timer.zsh
+        source #{HOMEBREW_PREFIX}/share/command-execution-timer@2/command-execution-timer.zsh
 
       If you prefer to manage the package with Homebrew but load it with
       a plugin manager, you may be able to load the above path with your
