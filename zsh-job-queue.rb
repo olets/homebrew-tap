@@ -1,7 +1,7 @@
 class ZshJobQueue < Formula
   desc "Zsh global synchronous job queue plugin"
   homepage "https://github.com/olets/zsh-job-queue"
-  url "https://github.com/olets/zsh-job-queue/releases/download/v1.0.0.tar.gz"
+  url "https://github.com/olets/zsh-job-queue/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "f0cdfeee0b2258857d3e3bcf5be6a1210810094e8d441abc71bfeb0005aa5bc0"
   head "https://github.com/olets/zsh-job-queue.git", branch: "main"
 
