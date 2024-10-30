@@ -56,6 +56,18 @@ class ZshAbbr < Formula
       To switch to the stable version, first uninstall and then
       (without passing HEAD) reinstall. You can check your version by
       running `abbr --version`.
+
+      ⚠️ You have installed the latest version of zsh-abbr. It
+      is possible that you were upgraded to a different major version. To
+      check your version, run:
+
+          abbr --version
+
+      Refer to https://github.com/olets/zsh-abbr/blob/main/CHANGELOG.md
+      for the latest changes and instructions.
+
+      Refer to https://zsh-abbr.olets.dev/installation.html
+      for instuctions on installing a different major version.
     EOS
   end
 

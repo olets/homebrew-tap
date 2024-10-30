@@ -34,6 +34,9 @@ class ZshAbbrAT4 < Formula
       (without passing HEAD) reinstall. You can check your version by
       running `abbr --version`.
 
+      You have installed the latest 4.x version of zsh-abbr.
+      See https://v4.zsh-abbr.olets.dev for details.
+
       v4 is a legacy version of zsh-abbr and no longer receives updates.
       Consider upgrading to the latest. See https://zsh-abbr.olets.dev for details.
     EOS

@@ -55,6 +55,9 @@ class ZshAbbrAT5 < Formula
       To switch to the stable version, first uninstall and then
       (without passing HEAD) reinstall. You can check your version by
       running `abbr --version`.
+
+      You have installed the latest 5.x version of zsh-abbr.
+      See https://v5.zsh-abbr.olets.dev for details.
     EOS
     # @TODO
     # When v6.0.0 is released, add this above the above EOS:
