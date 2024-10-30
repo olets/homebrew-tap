@@ -4,10 +4,10 @@ class ZshAbbrAT6 < Formula
   url "https://github.com/olets/zsh-abbr/archive/refs/tags/v6.0.0-beta.1.tar.gz"
   sha256 "70b6ce804b0f97cde35a03cc36851e8831a39e198245c6ec98df41e479877771"
   head "https://github.com/olets/zsh-abbr.git", branch: "v6"
+  depends_on "olets/tap/zsh-job-queue"
 
   def install
     pkgshare.install "zsh-abbr.zsh"
-    pkgshare.install "zsh-job-queue"
 
     man1.mkpath
     man1.install "man/man1/abbr.1"
