@@ -2,7 +2,7 @@ class ZshAbbrAT6 < Formula
   desc "Auto-expanding abbreviations manager for zsh, inspired by fish. Version 6.x"
   homepage "https://github.com/olets/zsh-abbr"
   url "https://github.com/olets/zsh-abbr/archive/refs/tags/v6.0.0-beta.1.tar.gz"
-  @TODO sha256 "70b6ce804b0f97cde35a03cc36851e8831a39e198245c6ec98df41e479877771"
+  sha256 "70b6ce804b0f97cde35a03cc36851e8831a39e198245c6ec98df41e479877771"
   head "https://github.com/olets/zsh-abbr.git", branch: "v6"
 
   def install
