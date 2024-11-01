@@ -8,6 +8,7 @@ class ZshAbbrAT6 < Formula
 
   def install
     pkgshare.install "zsh-abbr.zsh"
+    pkgshare.install "zsh-job-queue.zsh"
 
     man1.mkpath
     man1.install "man/man1/abbr.1"
