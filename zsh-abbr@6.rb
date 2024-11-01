@@ -1,10 +1,11 @@
 class ZshAbbrAT6 < Formula
   desc "Auto-expanding abbreviations manager for zsh, inspired by fish. Version 6.x"
   homepage "https://github.com/olets/zsh-abbr"
-  url "https://github.com/olets/zsh-abbr/archive/refs/tags/v6.0.0-beta.2.tar.gz"
+  url "https://github.com/olets/zsh-abbr",
+      tag:      "v6.0.0-beta.2",
+      revision: "e8433fe46112e809b2ab062527832c6a4f5cfa4f"
   sha256 "533d84148c56fa3268e75167637d53b8795070d4889f34ef068b964fb951cc67"
   head "https://github.com/olets/zsh-abbr.git", branch: "v6"
-  depends_on "olets/tap/zsh-job-queue"
 
   def install
     pkgshare.install "zsh-abbr.zsh"
