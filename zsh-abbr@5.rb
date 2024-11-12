@@ -58,11 +58,10 @@ class ZshAbbrAT5 < Formula
 
       You have installed the latest 5.x version of zsh-abbr.
       See https://v5.zsh-abbr.olets.dev for details.
+
+      v5 is a legacy version of zsh-abbr and no longer receives updates.
+      Consider upgrading to the latest. See https://zsh-abbr.olets.dev for details.
     EOS
-    # @TODO
-    # When v6.0.0 is released, add this above the above EOS:
-    # v5 is a legacy version of zsh-abbr and no longer receives updates.
-    # Consider upgrading to the latest. See https://zsh-abbr.olets.dev for details.
   end
 
   test do
