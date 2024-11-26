@@ -5,6 +5,7 @@ class GitActivityAT1 < Formula
   sha256 "90767a260971b45ab220063c18248a539645347ec30f094c3deda4f96f15e054"
   head "https://github.com/olets/git-activity.git", branch: "v1"
 
+  depends_on "awk"
   depends_on "coreutils"
 
   def install
