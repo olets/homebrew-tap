@@ -6,6 +6,7 @@ class GitActivityAT1 < Formula
   head "https://github.com/olets/git-activity.git", branch: "v1"
 
   depends_on "awk"
+  depends_on "bash"
   depends_on "coreutils"
 
   def install
