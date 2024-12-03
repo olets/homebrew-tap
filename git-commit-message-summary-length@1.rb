@@ -3,7 +3,7 @@ class GitCommitMessageSummaryLengthAT1 < Formula
   homepage "https://github.com/olets/git-commit-message-summary-length"
   url ""
   sha256 ""
-  head "https://github.com/olets/git-commit-message-summary-length.git", branch: "main"
+  head "https://github.com/olets/git-commit-message-summary-length.git", branch: "v1"
 
   def install
     bin.install "git-commit-message-summary-length"
