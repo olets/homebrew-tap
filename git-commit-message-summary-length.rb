@@ -1,8 +1,8 @@
 class GitCommitMessageSummaryLength < Formula
   desc "Check the length of a commit message's first line"
   homepage "https://github.com/olets/git-commit-message-summary-length"
-  url ""
-  sha256 ""
+  url "https://github.com/olets/git-commit-message-summary-length/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "455a3bf78ffe1e1fd86f0e03618b355aacf01dd3a947e89f7af3bda215ba1538"
   head "https://github.com/olets/git-commit-message-summary-length.git", branch: "main"
 
   def install
