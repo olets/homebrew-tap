@@ -1,8 +1,8 @@
 class ZshAutosuggestionsAbbreviationsStrategy < Formula
   desc "Zsh plugin to add zsh-abbr's abbreviations to zsh-autosuggestions' suggestions"
   homepage "https://github.com/olets/zsh-autosuggestions-abbreviations-strategy"
-  url "https://github.com/olets/zsh-autosuggestions-abbreviations-strategy/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "3941d24d0d33f17066a4fb1ebfa0b342895d4a76a4873ce17dac0ad9283bd016"
+  url "https://github.com/olets/zsh-autosuggestions-abbreviations-strategy/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "4d93f7f93fafdfc601c7604661f626d97c2828044716aebfdd0482c398a3b09a"
   head "https://github.com/olets/zsh-autosuggestions-abbreviations-strategy.git", branch: "main"
 
   def install
