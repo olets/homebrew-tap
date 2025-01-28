@@ -6,7 +6,7 @@ class ZshTransientPrompt < Formula
   head "https://codeberg.org/olets/zsh-transient-prompt.git", branch: "main"
 
   def install
-    pkgshare.install "zsh-transient-prompt.zsh-theme"
+    pkgshare.install "transient-prompt.zsh-theme"
   end
 
   def caveats
@@ -14,7 +14,7 @@ class ZshTransientPrompt < Formula
 
       To activate zsh-transient-prompt, add the following at the end of your .zshrc:
 
-        source #{HOMEBREW_PREFIX}/share/zsh-transient-prompt/zsh-transient-prompt.zsh-theme
+        source #{HOMEBREW_PREFIX}/share/zsh-transient-prompt/transient-prompt.zsh-theme
 
       If you prefer to manage the package with Homebrew but load it with
       a plugin manager, you may be able to load the above path with your
@@ -34,6 +34,6 @@ class ZshTransientPrompt < Formula
 
   test do
     assert_match "0",
-      shell_output("zsh -c '. #{pkgshare}/zsh-transient-prompt.zsh-theme && [[ -n $TRANSIENT_PROMPT_VERSION ]]; echo $?'")
+      shell_output("zsh -c '. #{pkgshare}/transient-prompt.zsh-theme && [[ -n $TRANSIENT_PROMPT_VERSION ]]; echo $?'")
   end
 end
