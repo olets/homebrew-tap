@@ -2,7 +2,7 @@ class ZshTransientPrompt < Formula
   desc "Add a transient prompt to your zsh command line"
   homepage "https://github.com/olets/zsh-transient-prompt"
   url "https://github.com/olets/zsh-transient-prompt/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "5d3a30e79bdec272db307f156a8e498d875d8b2464760d4c93dd283840face84"
+  sha256 "bd5742cc5a7405b8a77d2a2dc1721a3e243e54f9ea66bc22cfe8e0faf7651577"
   head "https://github.com/olets/zsh-transient-prompt.git", branch: "main"
 
   def install
