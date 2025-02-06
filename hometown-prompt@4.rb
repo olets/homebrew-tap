@@ -1,12 +1,12 @@
-class HometownPrompt < Formula
-  desc "Feature rich, high performance Git-centric theme for zsh"
+class HometownPromptAT4 < Formula
+  desc "Feature rich, high performance Git-centric theme for zsh. Version 4.x"
   homepage "https://github.com/olets/hometown-prompt"
   # using url with tag and revision to resolve submodules
   # https://github.com/orgs/Homebrew/discussions/2100
   url "https://github.com/olets/hometown-prompt.git",
-      tag:      "v4.0.0",
-      revision: "8b86c33411a1285d750bab8df5f8d9c14d53ad3d"
-  head "https://github.com/olets/hometown-prompt.git", branch: "main"
+      tag:      "v3.1.5",
+      revision: "1fb3cb3665c5ae1465d5463abdabca6ca14a0b9f"
+  head "https://github.com/olets/hometown-prompt.git", branch: "v4"
 
   def install
     pkgshare.install "hometown.zsh-theme"
@@ -24,8 +24,10 @@ class HometownPrompt < Formula
       zsh by running
 
         exec zsh
-  
-  
+
+      You have installed the latest 4.x version of Hometown prompt.
+
+
     EOS
   end
 
