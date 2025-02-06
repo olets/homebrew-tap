@@ -4,9 +4,9 @@ class HometownPromptAT4 < Formula
   # using url with tag and revision to resolve submodules
   # https://github.com/orgs/Homebrew/discussions/2100
   url "https://github.com/olets/hometown-prompt.git",
-      tag:      "v3.1.5",
-      revision: "1fb3cb3665c5ae1465d5463abdabca6ca14a0b9f"
-  head "https://github.com/olets/hometown-prompt.git", branch: "v4"
+      tag:      "v4.0.0",
+      revision: "8b86c33411a1285d750bab8df5f8d9c14d53ad3d"
+  head "https://github.com/olets/hometown-prompt.git", branch: "main"
 
   def install
     pkgshare.install "hometown.zsh-theme"
