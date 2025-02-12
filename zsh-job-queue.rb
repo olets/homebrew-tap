@@ -26,8 +26,9 @@ class ZshJobQueue < Formula
 
       You have installed the latest version of zsh-job-queue.
 
-      Refer to https://github.com/olets/zsh-job-queue/ for more information,
-      including how to pin to version 1.x.
+      Refer to https://zsh-job-queue.olets.dev for more information,
+      including whether there a newer major version is available
+      and how to pin a specific major version.
 
     EOS
   end
