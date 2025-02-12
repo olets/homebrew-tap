@@ -24,7 +24,7 @@ class ZshJobQueueAT1 < Formula
 
         exec zsh
 
-      You have installed the latest 1.x version of Command Execution Timer.
+      You have installed the latest 1.x version of zsh-job-queue.
 
       Refer to https://github.com/olets/zsh-job-queue/ for more information,
       including whether there's a newer major version available.
