@@ -7,6 +7,9 @@ class ZshJobQueueAT1 < Formula
 
   def install
     pkgshare.install "zsh-job-queue.zsh"
+
+    man1.mkpath
+    man1.install "man/man1/job-queue.1"
   end
 
   def caveats
