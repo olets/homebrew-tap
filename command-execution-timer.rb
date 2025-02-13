@@ -1,8 +1,8 @@
 class CommandExecutionTimer < Formula
   desc "Zsh plugin for timing interactive shell commands"
   homepage "https://github.com/olets/command-execution-timer"
-  url "https://github.com/olets/command-execution-timer/archive/refs/tags/v2.1.1.tar.gz"
-  sha256 "deaa4030146db9365ea3a9a004a0005c29ee2c782c7437a37b3a3fc514486586"
+  url "https://github.com/olets/command-execution-timer/archive/refs/tags/v2.1.2.tar.gz"
+  sha256 "c6d2224c3a42b344303b9fc69384c133b327bbfec6e87a03f8c9c1a8458f509e"
   head "https://github.com/olets/command-execution-timer.git", branch: "main"
 
   def install
