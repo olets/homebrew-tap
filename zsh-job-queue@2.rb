@@ -1,8 +1,8 @@
 class ZshJobQueueAT2 < Formula
   desc "Zsh global synchronous job queue plugin. Version 2.x"
   homepage "https://github.com/olets/zsh-job-queue"
-  url "https://github.com/olets/zsh-job-queue/archive/refs/tags/v2.0.1.tar.gz"
-  sha256 "a1b1e2fe5aeb6ccb4830c9a162796881fb8eba255dcedf357aaa8e78e2dd6958"
+  url "https://github.com/olets/zsh-job-queue/archive/refs/tags/v2.0.2.tar.gz"
+  sha256 "eebd0166ba07dfaa9fc09f353fb619107cc6e687a94a3cbcbfd3227efd8cb184"
   head "https://github.com/olets/zsh-job-queue.git", branch: "v2"
 
   def install
