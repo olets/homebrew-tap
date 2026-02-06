@@ -2,8 +2,8 @@ class ZshAbbrAT6 < Formula
   desc "Auto-expanding abbreviations manager for zsh. Version 6.x"
   homepage "https://github.com/olets/zsh-abbr"
   url "https://github.com/olets/zsh-abbr.git",
-      tag:      "v6.5.0",
-      revision: "4d1bb2ecba84ef7814fe400dd28826a9205bb39e"
+      tag:      "v6.5.1",
+      revision: "50988e246dab86bc5701932f64e9fe9b1df23cb9"
   head "https://github.com/olets/zsh-abbr.git", branch: "v6"
 
   def install
